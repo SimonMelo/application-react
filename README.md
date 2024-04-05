@@ -1,14 +1,15 @@
-# application-react
+# Aplicação React
 Repositório feito para instruir na criação de um projeto React e suas necessidades
 
 # Tópicos
 1. [Tecnologias usadas do projeto](#tecnologias-usadas-do-projeto)
 2. [Instalação das Dependências](#instalação-das-dependências)
-3. [Sobre Git](#sobre-git)
-4. [Sobre NVM](#sobre-nvm)
-5. [Sobre NodeJS](#sobre-nodejs)
-6. [Sobre React](#sobre-react)
-7. [Sobre MaterialUI](#sobre-materialui)
+3. [Sobre Github](#sobre-github)
+4. [Sobre Git](#sobre-git)
+5. [Sobre NVM](#sobre-nvm)
+6. [Sobre NodeJS](#sobre-nodejs)
+7. [Sobre React](#sobre-react)
+8. [Sobre MaterialUI](#sobre-materialui)
 
 
 ## Tecnologias usadas do projeto
@@ -38,6 +39,8 @@ Certifique-se de ter as seguintes dependências intaladas antes de prosseguir:
      ```bash
      nvm use 20
      ```
+
+## Sobre Github
 
 ## Sobre Git
 
