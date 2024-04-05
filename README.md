@@ -96,7 +96,7 @@ Os seus principais códigos são:
    git checkout nome-da-branch
    ```
 
-> **AVISO:** Sempre quando criar uma nova branch ir para a branch main e executar o comando "git pull" para atualizar a main e criar uma branch nova a partir da main.
+> **AVISO:** Sempre que criar uma nova branch, vá para a branch main e execute o comando “git pull” para atualizar a main e criar uma nova branch a partir da main.
 
 Após finalizar as alterações no projeto sempre usar o "git add .", "git commit -m 'alterações-feitas'" e por fim, finalize com "git push".
 Todas linhas de código são executadas no cmd, terminal, prompt de comando, como preferir chamar!
