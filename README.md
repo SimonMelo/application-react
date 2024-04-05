@@ -2,14 +2,14 @@
 Repositório feito para instruir na criação de um projeto React e suas necessidades
 
 # Tópicos
-1. [Tecnologias usadas do projeto](#tecnologias-usadas-do-projeto)
-2. [Instalação das Dependências](#instalação-das-dependências)
-3. [Sobre Github](#sobre-github)
-4. [Sobre Git](#sobre-git)
-5. [Sobre NVM](#sobre-nvm)
-6. [Sobre NodeJS](#sobre-nodejs)
-7. [Sobre React](#sobre-react)
-8. [Sobre MaterialUI](#sobre-materialui)
+- [Tecnologias usadas do projeto](#tecnologias-usadas-do-projeto)
+- [Instalação das Dependências](#instalação-das-dependências)
+- [Sobre Github](#sobre-github)
+- [Sobre Git](#sobre-git)
+- [Sobre NVM](#sobre-nvm)
+- [Sobre NodeJS](#sobre-nodejs)
+- [Sobre React](#sobre-react)
+- [Sobre MaterialUI](#sobre-materialui)
 
 
 ## Tecnologias usadas do projeto
@@ -98,8 +98,7 @@ Os seus principais códigos são:
 
 > **AVISO:** Sempre que criar uma nova branch, vá para a branch main e execute o comando “git pull” para atualizar a main e criar uma nova branch a partir da main.
 
-Após finalizar as alterações no projeto sempre usar o "git add .", "git commit -m 'alterações-feitas'" e por fim, finalize com "git push".
-Todas linhas de código são executadas no cmd, terminal, prompt de comando, como preferir chamar!
+Após finalizar as alterações no projeto, sempre use “git add .”, “git commit -m ‘alterações feitas’” e, por fim, finalize com “git push”. Todas as linhas de código são executadas no cmd, terminal ou prompt de comando, como preferir chamar!
 
 
 ## Sobre NodeJS
@@ -125,9 +124,9 @@ Os comandos que iremos mais usar serão:
    nvm use (versão)
    ```
 
-> **AVISO:** Certifique-se de seguir as instruções de instalação específicas para o seu sistema operacional e lembre-se de reiniciar o terminal após a instalação do NVM para aplicar as alterações.
-   
-Existem outros comandos e é sempre bom aprender mais sobre eles, mas esses são os essenciais para o projeto!
+> **AVISO:** Certifique-se de seguir as instruções de instalação específicas para o seu sistema operacional. Lembre-se de reiniciar o terminal após a instalação do NVM para aplicar as alterações.
+
+Existem outros comandos, e é sempre bom aprender mais sobre eles. No entanto, esses são os essenciais para o projeto!
 
 
 ## Sobre React
@@ -135,5 +134,4 @@ React é um framework usado para desenvolvimneto de código aberto para construi
 
 
 ## Sobre MaterialUI
-Material-UI é uma biblioteca de componentes React que implementa os princípios de design do Material Design, criado pelo Google. Ele fornece uma ampla variedade de componentes prontos para uso, como botões, barras de navegação, e tabelas, seguindo as diretrizes de design do Material Design. Isso facilita a criação de interfaces de usuário elegantes e consistentes.
-Existe diversas bibliotecas de componentes mas sempre cada uma específica para cada framework. Se você se pergunta se pode existir a mesma biblioteca de componentes para outros frameworks, sim, existe! Apenas muda a forma de instalação e adaptação para o framework.
+Material-UI é uma biblioteca de componentes React que implementa os princípios de design do Material Design, criado pelo Google. Ela fornece uma ampla variedade de componentes prontos para uso, como botões, barras de navegação e tabelas, seguindo as diretrizes de design do Material Design. Isso facilita a criação de interfaces de usuário elegantes e consistentes. Existem diversas bibliotecas de componentes, cada uma específica para um framework. Se você se pergunta se pode existir a mesma biblioteca de componentes para outros frameworks, sim, existe! Apenas muda a forma de instalação e adaptação para o framework.
