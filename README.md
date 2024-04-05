@@ -83,7 +83,8 @@ Os seus principais códigos são:
    ```
 6. **git pull** :
    ```bash
-   # Recupera commits do repositório remoto e mescla-os no branch local, ou seja, puxa todas as atualizações mais recentes. Isso facilita não ter conflitos na hora de juntar as branch's
+   # Recupera commits do repositório remoto e mescla-os no branch local, ou seja, puxa todas as atualizações mais recentes.
+   # Isso facilita não ter conflitos na hora de juntar as branch's.
    git pull
    ```
 7. **git checkout** :
