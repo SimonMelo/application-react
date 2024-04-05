@@ -88,9 +88,8 @@ Os seus principais códigos são:
    git checkout nome-da-branch
    ```
 
-```diff
-- AVISO: Sempre quando criar uma nova branch ir para a branch main e executar o comando "git pull" para atualizar a main e criar uma branch nova a partir da main.
-```
+> **AVISO:** Sempre quando criar uma nova branch ir para a branch main e executar o comando "git pull" para atualizar a main e criar uma branch nova a partir da main.
+
 
 ## Sobre NodeJS
 Node.js é uma plataforma de desenvolvimento de software de código aberto que permite executar JavaScript no lado do servidor. Ele usa o motor JavaScript V8 da Google Chrome e é amplamente utilizado para criar aplicativos web escaláveis e de alto desempenho.
