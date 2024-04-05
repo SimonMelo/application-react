@@ -39,6 +39,7 @@ Certifique-se de ter as seguintes dependências intaladas antes de prosseguir:
      ```bash
      nvm use 20
      ```
+ 
 
 ## Sobre Github
 GitHub é uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git. Ele oferece recursos de colaboração, como controle de versão, rastreamento de problemas, wikis e integração com várias ferramentas de desenvolvimento. Ele é usado também como portifólio do desenvolvedor, por isso é bom sempre que começar qualquer projeto ou qualquer coisa que tenha pegado para praticar, é bom usar o Github para guarda-los!
@@ -47,6 +48,8 @@ GitHub é uma plataforma de hospedagem de código-fonte que utiliza o sistema de
 Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear mudanças no código-fonte durante o desenvolvimento de software. Ele permite que várias pessoas trabalhem em um projeto simultaneamente e mantém um histórico completo de todas as alterações feitas. Iremos usar o Git justamente para o envio dos arquivos criados e alterados para que todos possam trabalhar no mesmo projeto e fazer atualização do mesmo. 
 
 O Git é uma ferramenta de linha de comando (CLI), embora também possua interfaces gráficas de usuário (GUI) disponíveis. No entanto, a interface de linha de comando do Git é a forma mais comum e poderosa de interagir com o sistema de controle de versão Git. Através da CLI do Git, os usuários podem executar uma variedade de comandos para realizar operações como clonar repositórios, criar branches, fazer commits, mesclar código e muito mais.
+
+Esse códigos serão executados no Terminal da pasta do projeto, para abrir você pode clicar **Windows + X**.
 
 Os seus principais códigos são:
 1. **git init**:
@@ -90,12 +93,36 @@ Os seus principais códigos são:
 
 > **AVISO:** Sempre quando criar uma nova branch ir para a branch main e executar o comando "git pull" para atualizar a main e criar uma branch nova a partir da main.
 
+Após finalizar as alterações no projeto sempre usar o "git add .", "git commit -m 'alterações-feitas'" e por fim, finalize com "git push".
+Todas linhas de código são executadas no cmd, terminal, prompt de comando, como preferir chamar!
+
 
 ## Sobre NodeJS
 Node.js é uma plataforma de desenvolvimento de software de código aberto que permite executar JavaScript no lado do servidor. Ele usa o motor JavaScript V8 da Google Chrome e é amplamente utilizado para criar aplicativos web escaláveis e de alto desempenho.
 
 ## Sobre NVM
 NVM, ou Node Version Manager, é uma ferramenta de linha de comando que permite instalar e gerenciar várias versões do Node.js em um único sistema. Isso é útil para desenvolvedores que precisam trabalhar em projetos que requerem versões específicas do Node.js.
+Os comandos que iremos mais usar serão:
+
+1. **Instalação de versões do node** :
+   ```bash
+   nvm install (versão)
+   ```
+
+2. **Listar as versões do node** :
+   ```bash
+   nvm ls
+   ```
+
+3. **Usar versões do node** :
+   ```bash
+   nvm use (versão)
+   ```
+
+> Existem outros comandos e é sempre bom aprender mais sobre eles, mas esses são os essenciais para o projeto!
+
+> **AVISO:** Certifique-se de seguir as instruções de instalação específicas para o seu sistema operacional e lembre-se de reiniciar o terminal após a instalação do NVM para aplicar as alterações.
+   
 
 ## Sobre React
 React é um framework usado para desenvolvimneto de código aberto para construir interfaces de usuário. Desenvolvida pelo Facebook, ela permite criar componentes reutilizáveis e declarativos que compõem interfaces de usuário interativas e dinâmicas. Outros exemplos de frameworks são Vue.JS, Next.JS e até mesmo Angular.JS
