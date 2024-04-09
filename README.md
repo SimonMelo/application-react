@@ -66,11 +66,18 @@ Os seus principais códigos são:
    # Clona um repositório remoto para o diretório local
    git clone https://github.com/usuario/nome-do-repositorio.git
    ```
-3. **git add** (o commit serve para você descrever a alteração que você fez durante o desenvolvimento, mas lembre de sempre ser o mais breve possível... diferente de mim agora):
+3. **git commit** (o commit serve para você descrever a alteração que você fez durante o desenvolvimento, mas lembre de sempre ser o mais breve possível... diferente de mim agora):
    ```bash
    # Cria um novo commit com os arquivos preparados no índice
    git commit -m "Mensagem do commit"
    ```
+
+3. **git add**:
+   ```bash
+   # Adicionar mudanças no commit
+   git add .
+   ```
+
 4. **git status**:
    ```bash
    # Mostra o estado atual do diretório de trabalho e do índice, ou seja, o que foi adicionado ou não.
