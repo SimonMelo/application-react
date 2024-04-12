@@ -141,6 +141,46 @@ Existem outros comandos, e é sempre bom aprender mais sobre eles. No entanto, e
 ## Sobre React
 React é um framework usado para desenvolvimneto de código aberto para construir interfaces de usuário. Desenvolvida pelo Facebook, ela permite criar componentes reutilizáveis e declarativos que compõem interfaces de usuário interativas e dinâmicas. Outros exemplos de frameworks são Vue.JS, Next.JS e até mesmo Angular.JS
 
+Após ter baixado as dependências para o projeto como o Node, NVM e Git. Certifique-se que está na versão mais recente do Node
+- Digite no terminal o seguinte código:
+   ```bash
+   nvm install latest
+   ```
+Instalando a versão mais recente, você irá no site do [React](https://react.dev/learn) para poder se guiar e entender um pouco mais sobre o Framework. Compreendendo sobre o Framework, volte ao terminal.
+- Digite no terminal o seguinte código:
+   ```bash
+   npx create-react-app nome-do-seu-projeto
+   ```
+Espere instalar e em seguida digite os seguintes comandos como irá aparecer como recomendando no terminal:
+   ```bash
+   cd nome-do-seu-projeto
+   ```
+Instale as dependências se necessário:
+   ```bash
+   npm install
+   ```
+E por fim, abra seu VSCode pelo terminal digitando:
+   ```bash
+   code .
+   ```
+Para iniciar sua aplicação digite no terminal:
+   ```bash
+   npm start
+   ```
 
 ## Sobre MaterialUI
 Material-UI é uma biblioteca de componentes React que implementa os princípios de design do Material Design, criado pelo Google. Ela fornece uma ampla variedade de componentes prontos para uso, como botões, barras de navegação e tabelas, seguindo as diretrizes de design do Material Design. Isso facilita a criação de interfaces de usuário elegantes e consistentes. Existem diversas bibliotecas de componentes, cada uma específica para um framework. Se você se pergunta se pode existir a mesma biblioteca de componentes para outros frameworks, sim, existe! Apenas muda a forma de instalação e adaptação para o framework.
+
+Depois de fazer a criação da pasta, instalar o framework, agora você irá instalar a biblioteca de componentes do [MaterialUI](https://mui.com/material-ui/). Caso queira usar outra biblioteca de componentes que você tenha visto ou achado interessante, tudo bem mas aplique corretamente.
+Para instalar e fazer o uso da biblioteca você deve digitar no terminal do seu projeto o seguinte comando:
+   ```bash
+   npm install @mui/material @emotion/react @emotion/styled
+   ```
+Feito isso você poderá usar os componentes que a biblioteca disponibiliza e para isso você pode buscar nesse link dos [Componentes](https://mui.com/material-ui/all-components/).
+Se lembre de importar os componentes quando for usa-los no seu projeto, exemplo:
+
+import Button from "@mui/material/Button"
+
+E caso tenha mais de um componente em uso você pode apenas colocar da seguinte forma para deixar o código mais limpo:
+
+import { Button, SnackBar, Checkbox, Select } from "@mui/material"
