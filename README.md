@@ -66,11 +66,6 @@ Os seus principais códigos são:
    # Clona um repositório remoto para o diretório local
    git clone https://github.com/usuario/nome-do-repositorio.git
    ```
-3. **git commit** (o commit serve para você descrever a alteração que você fez durante o desenvolvimento, mas lembre de sempre ser o mais breve possível... diferente de mim agora):
-   ```bash
-   # Cria um novo commit com os arquivos preparados no índice
-   git commit -m "Mensagem do commit"
-   ```
 
 3. **git add**:
    ```bash
@@ -78,17 +73,24 @@ Os seus principais códigos são:
    git add .
    ```
 
-4. **git status**:
+4. **git commit** (o commit serve para você descrever a alteração que você fez durante o desenvolvimento, mas lembre de sempre ser o mais breve possível... diferente de mim agora):
+   ```bash
+   # Cria um novo commit com os arquivos preparados no índice
+   git commit -m "Mensagem do commit"
+   ```
+
+
+5. **git status**:
    ```bash
    # Mostra o estado atual do diretório de trabalho e do índice, ou seja, o que foi adicionado ou não.
    git status
    ```
-5. **git push** :
+6. **git push** :
    ```bash
    # Envia commits locais para o repositório remoto
    git push origin nome-do-branch
    ```
-6. **git pull** :
+7. **git pull** :
    ```bash
    # Recupera commits do repositório remoto e mescla-os no branch local, ou seja, puxa todas as atualizações mais recentes.
    # Isso facilita não ter conflitos na hora de juntar as branch's.
